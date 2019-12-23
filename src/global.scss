@@ -1,0 +1,31 @@
+@import "./assets/scss/theme.scss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+
+.container-block {
+  padding: 12px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.text {
+ &.error-text {
+    color: $error-color;
+  }
+}
+
+.full-height {
+  height: 100%;
+}
+
+.ant-layout-sider {
+  background: #fff !important;
+}
