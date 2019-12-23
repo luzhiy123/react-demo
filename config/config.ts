@@ -8,6 +8,8 @@ const config: IConfig = {
   routes,
   theme: "./config/theme.js",
   outputPath: "./docs/",
+  base: "/react-demo/",
+  publicPath: "/react-demo/",
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     [
